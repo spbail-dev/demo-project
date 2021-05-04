@@ -1,4 +1,4 @@
-# Welcome to the Brewery API demo project!
+# Welcome to the demo project!
 
 This is a demo project for my "Getting started with Open Source" talk. **PRs welcome!**
 
