@@ -2,6 +2,8 @@
 
 This is a demo project for my "Getting started with Open Source" talk. **PRs welcome!**
 
+If you'd like to buy me a :coffee: coffee :coffee: (or beer) as a thank you for providing these learning materials, I'd be super stoked! Check out [buymeacoffee.com/sambail](https://www.buymeacoffee.com/sambail) :)
+
 ## What does this project do?
 
 Ok, this is really just a dummy project I hacked together to demonstrate contribution workflows. **But** it does do something fun: The code in `brewery_api.py` queries an API that provides a list of breweries for any US state a user inputs. Thanks to [openbrewerydb.org](https://www.openbrewerydb.org/) for maintaining this API.
