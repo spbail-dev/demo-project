@@ -2,7 +2,14 @@
 
 This is a demo project for my "Getting started with Open Source" talk. **PRs welcome!**
 
-If you'd like to buy me a :coffee: coffee :coffee: (or beer) as a thank you for providing these learning materials, I'd be super stoked! Check out [buymeacoffee.com/sambail](https://www.buymeacoffee.com/sambail) :)
+---
+
+### ☕ Buy me a coffee ☕
+
+If you enjoy this workshop and want to say thanks, you can buy me a coffee here: https://www.buymeacoffee.com/sambail
+Thank you 😄
+
+---
 
 ## What does this project do?
 
