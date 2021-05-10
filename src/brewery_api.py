@@ -6,7 +6,7 @@ import sys
 BREWERY_API_URL = 'https://api.openbrewerydb.org/breweries?'
 
 
-# TODO: This only gets the first 10 breweries from the API, would be nice to get the full list (see the API docs)
+# TODO: This only gets the first 20 breweries from the API, would be nice to get the full list (see the API docs)
 def get_breweries_by_state(state_name):
     """
     Simple function that takes a state name as an input and returns a list of breweries
@@ -15,7 +15,7 @@ def get_breweries_by_state(state_name):
     state_name.replace(' ', '_')  # the API doesn't allow spaces in state names
     params = {
         'by_state': state_name,
-        'per_page': 10
+        'per_page': 20
     }
     response = requests.get(BREWERY_API_URL, params=params)
     # TODO: check the response code here to catch an error if there are any problems
@@ -36,7 +36,7 @@ def main(args):
     print('Looking up breweries in ' + state_name_input + '...')
     breweries = get_breweries_by_state(state_name_input)
 
-    print(f"Showing the first 10 breweries in {state_name_input}: \n")
+    print(f"Showing the first 20 breweries in {state_name_input}: \n")
     for b in breweries:
         print(b[0] + ', ' + b[1])
 
