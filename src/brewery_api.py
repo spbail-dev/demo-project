@@ -36,7 +36,7 @@ def main(args):
     print('Looking up breweries in ' + state_name_input + '...')
     breweries = get_breweries_by_state(state_name_input)
 
-    print(f"Showing the first 20 breweries in {state_name_input}: \n")
+    print(f"Showing the first twenty breweries in {state_name_input}: \n")
     for b in breweries:
         print(b[0] + ', ' + b[1])
 
